@@ -1,22 +1,22 @@
 body {
-    border: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(to top right, #ff512f, #dd2476);
-    background-repeat: no-repeat;
-    display: flex;
-    font-family: "Arial";
-    font-weight: 400;
-    color: #7a7b7f;
+  border: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to top right, #ff512f, #dd2476);
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #7a7b7f;
   }
 main {
-    margin: auto;
-    display: block;
-    width: 460px;
-    height: 470px;
-    background-color: white;
-    border-radius: 4px;
+  margin: auto;
+  display: block;
+  width: 460px;
+  height: 470px;
+  background-color: white;
+  border-radius: 4px;
 }
 
 .sign-up {
@@ -50,12 +50,12 @@ input{
   box-sizing: border-box;
 }
 input[type=text] {
-width: 191px;
-margin: 7.5px 11px 7.5px 0;
+  width: 191px;
+  margin: 7.5px 11px 7.5px 0;
 
 }
 input:nth-of-type(2) {
- margin: 0;
+  margin: 0;
 }
 input[type=email], input[type=password] {
   width: 400px;
