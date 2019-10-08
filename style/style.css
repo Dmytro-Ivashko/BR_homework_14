@@ -16,14 +16,13 @@ main {
     width: 460px;
     height: 470px;
     background-color: white;
+    border-radius: 4px;
 }
 
 .sign-up {
   margin: 31px;
 }
-.sign-up  > img {
-  margin: 
-}
+
 h1 {
   font-weight: bold;
   font-size: 24px;
@@ -60,4 +59,18 @@ input:nth-of-type(2) {
 }
 input[type=email], input[type=password] {
   width: 400px;
+}
+button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.1;
+  color: white;
+  width: 400px;
+  height: 53px;
+  margin-top: 7.5px; 
+  background-color: #ea355a;
+  outline:0;
+  border: none;
+  border-bottom: 3px solid #bd1962;
+  border-radius: 4px;
 }
